@@ -9,3 +9,8 @@ Install
 npm install
 gulp --production
 ```
+
+License
+-------
+MIT
+
