@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: tuomaksena
-        image: ghcr.io/dilaz/Tuomaksena:latest
+        image: ghcr.io/dilaz/tuomaksena:latest
         imagePullPolicy: IfNotPresent
       imagePullSecret:
       - name: github-container-registry
