@@ -36,5 +36,5 @@ spec:
       - name: tuomaksena
         image: ghcr.io/dilaz/tuomaksena:latest
         imagePullPolicy: IfNotPresent
-      imagePullSecret:
+      imagePullSecrets:
       - name: github-container-registry
