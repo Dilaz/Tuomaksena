@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM nginx:1.31.9-alpine
 COPY *.html *.ico *.json /usr/share/nginx/html/
 COPY css /usr/share/nginx/html/css
 COPY images /usr/share/nginx/html/images
